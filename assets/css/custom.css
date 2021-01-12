@@ -1,0 +1,70 @@
+/* Google font link */
+*{
+	padding: 0;
+	margin: 0;
+	outline: 0;
+}
+body{
+	/* Google Fonts */
+}
+a,a:hover{
+	text-decoration: none;
+}
+img{
+	vertical-align: center;
+}
+ul,ol{
+	list-style: none;
+}
+h1,h2,h3,h4,h5,h5,p,a,img,ul,ol,nav{
+	padding: 0;
+	margin: 0;
+}
+.panda-slide{
+	background-color:  #fceae8;
+	border-radius: 10px;
+}
+.carousel-item{
+	padding: 10px 40px;
+}
+.price{
+	color:  #FF136F;
+}
+.categories img{
+	width: 100px;
+}
+.cart-1, .cart-2, .cart-3{
+	padding: 10px 30px;
+	border-radius: 10px;
+}
+.cart-1{
+	background-color: orange;
+}
+.cart-2{
+	background-color: orchid;
+}
+.cart-3{
+	background-color: blue;
+}
+.panda-card{
+	border: 0;
+}
+.panda-card-footer{
+	background-color: white;
+	border: 0;
+}
+.buy-now-btn{
+	background-image: linear-gradient(to bottom, #FF589B 0%, #FF136F 100%);
+	color: #fff;
+	border: none;
+	padding: 9px 15px;
+	border-radius: 10px;
+	cursor: pointer;
+}
+#subscribe{
+	height: 300px;
+}
+/* myCSS Start */
+
+
+/* myCSS End */

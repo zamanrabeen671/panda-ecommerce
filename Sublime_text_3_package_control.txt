@@ -1,0 +1,35 @@
+import urllib.request,os,hashlib; h = '6f4c264a24d933ce70df5dedcf1dcaee' + 'ebe013ee18cced0ef93d5f746d80ef60'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)
+
+
+
+
+TO install the Package control of Sublime text 3 , copy the whole link and follow those steps...
+
+
+1| Open the Sublime text 3 software.
+
+2| Press the Ctrl+(~) button . { (~) the button is on the TOP LEFT corner, below the (Esc) Button }
+
+3| Copy that link and Paste it to that input option.
+
+4| Press Enter and wait for a few minutes.
+
+5| Go to the Preferences option on the menu bar of sublime text, and you can see an option PACKAGE CONTROL. Press it.
+
+6| Write (install package), On that option , search for (emmet), and press on it. wait for a few minute to install it.
+
+7| Again Go to the Preferences option on the menu bar of sublime text, and you can see an option PACKAGE CONTROL. Press it.
+
+8| Again Write (install package), On that option , search for (AutoFileName), and press on it. wait for a few minute to install it.
+
+9| Again Go to the Preferences option on the menu bar of sublime text, and you can see an option PACKAGE CONTROL. Press it.
+
+10| Again Write (install package), On that option , search for (HTMLBeautify), and press on it. wait for a few minutes to install it.
+
+
+Those 3 package can be help you to code :)
+
+
+
+You can also see this video:
+https://youtu.be/8eQy3H1HxhY
